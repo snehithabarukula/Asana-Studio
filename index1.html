@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>YogaGame - Best Positions</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <img src="img/yoga%20main.png">
+</head>
+
+    <body>
+        
+    
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+
+                  
+                </ul>
+            </nav>
+            <h3 class="text-muted">Deep Learning Application</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Asana Studio</h1>
+            <p class="lead"></p>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <h4>Yoga will help you unite the mind and body,<br /> 
+                    All yoga styles will help you balance your body, mind, and spirit and can be achieved in different ways.</h4>
+                <p> Inorder to improves your physical, mental and emotional state to face your challenges we came up with this application,<br />
+                    that will help you improve your posture immediately!.<br />
+                    You just have to follow three simple steps:<br />
+                    <br />
+                    1. Click a picture with the posture.<br />
+                    2. Upload the picture here.<br />
+                    3. Asana Studio will let you know your score.<br />
+                </p>
+                <h5>Insert Your Pictures here!</h5>
+                <form action="/upload" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="file" id="file" class="inputfile" />
+                    <label for="file">Upload Image</label>
+                    <input type="submit" name="submit" id="submit" class="inputfile" />
+                    <label for="submit">Score Check</label>
+                </form>
+                <h5> Yoga Asana for all</h5>
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <p>&copy; Team Chipp| 2020</p>
+        </footer>
+        
+
+    </div>
+    
+</body>
+
+</html>
